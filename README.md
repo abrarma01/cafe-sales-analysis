@@ -4,34 +4,36 @@ Coffee shop sales analysis with Python &amp; Power BI dashboard
 ☕ Coffee Shop Sales Analysis & Dashboard
 An end-to-end data analysis project for a coffee shop — covering datacleaning, exploratory data analysis (EDA), visualizations, an interactivedashboard, and a final business presentation.
 
-📌 Project Overview
+## 📌 Project Overview
 The goal of this project is to analyze a coffee shop's sales data tounderstand performance, discover trends, and support data-drivenbusiness decisions.
 
-The project covers the full analytics workflow:
+### The project covers the full analytics workflow:
 
 Data Cleaning — fixing data types, handling missing values, removing duplicates
 EDA — exploring sales trends, peak hours, top products & store performance
 Visualization — building clear charts with Python
 Dashboard & Reporting — an interactive dashboard + presentation
-📊 Dashboard Preview
-Dashboard
 
-🛠 Tools & Technologies
-Tool	Purpose
-Python (Pandas, NumPy)	Data cleaning & preprocessing
-Matplotlib / Seaborn	Visualizations & EDA
-Power BI	Interactive dashboard
-Excel	Quick summaries & validation
-PowerPoint	Final presentation
-📂 Project Structure
-cafe-sales-analysis/
-│
-├── coffee_sales_analysis.ipynb # Full analysis notebook
-├── presentation.pptx # Business presentation
-├── dashboard.png # Dashboard screenshot
-├── data.csv # Dataset
-├── requirements.txt
-└── README.md
+## 📊 Dashboard Preview
+![Dashboard](dashboard.png)
+
+## 🛠 Tools & Technologies
+|Tool	 |   Purpose |
+|------|-----------|
+|`Matplotlib / Seaborn `| Visualizations & EDA|
+|`Power BI`| Interactive dashboard|
+|`Excel` |Quick summaries & validation|
+|`PowerPoint`| Final presentation|
+
+## 📂 Project Structure
+| File | Description |
+|------|-------------|
+| `coffee_sales_analysis.ipynb` | Full analysis notebook |
+| `dashboard.png` | Dashboard screenshot |
+| `data.csv` | Dataset |
+| `presentation.pdf` | Business presentation |
+| `requirements.txt` | Python dependencies |
+| `README.md` | -|
 
 
 ## 🔍 Key Insights
@@ -51,8 +53,8 @@ pip install -r requirements.txt
 
 # 3. Open the notebook
 jupyter notebook coffee_sales_analysis.ipynb
-
-📄 Presentation
-The full presentation is available here: presentation.pdf
+```
+## 📄 Presentation
+The full presentation is available here: [presentation.pdf](presentation.pdf)
 
 ⭐ Feel free to check the dashboard and share your feedback!
